@@ -1,6 +1,7 @@
 import "./Navbar.scss"
 import logo from "./logo.png"
 import CardWidget from "../CardWidget/CardWidget"
+import "bootstrap-icons/font/bootstrap-icons.css"
 
 
 export const Navbar = () => {

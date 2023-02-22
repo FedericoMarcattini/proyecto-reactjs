@@ -1,5 +1,10 @@
+:root {
+    --color-main: #6c182d;
+    --color-gray: #cdcdcd;
+}
+
 .header {
-    background-color: blueviolet;
+    background-color: var(--color-gray);
         
         .header__container {
             max-width: 900px;
@@ -11,6 +16,7 @@
 
                 .header__logo {
                     max-width: 90px;
+
                 }
                 
                 .navbar {
@@ -20,9 +26,9 @@
                     gap: 1rem;
                         
                         .navbar__item {
-                            color: white;
+                            color: var(--color-main);
                             font-size: 1rem;
-                            font-weight: 700;
+                            font-weight: 600;
                             text-decoration: none;
                         }
                 }

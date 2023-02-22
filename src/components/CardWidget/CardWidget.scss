@@ -1,0 +1,18 @@
+
+.carrito {
+    display: flex;
+    margin-left: 1.5rem;
+    padding-block: .2rem;
+    padding-inline: .7rem;
+    border-radius: .3rem;
+    background-color: var(--color-main);
+    color: white;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+
+        &:hover {
+            color: var(--color-gray);
+            cursor: pointer;
+        }
+}

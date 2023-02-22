@@ -5,7 +5,7 @@ const ItemListContainer = ( { greeting } ) => {
 
     return (
         <div className="contenedor">
-            <h2>REACT JS</h2>
+            <h2>Calavera No Chilla Store</h2>
             <hr/>
 
             { greeting }
